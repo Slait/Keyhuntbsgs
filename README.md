@@ -1,4 +1,4 @@
-# KeyHunt - BSGS Search
+# KeyHunt - BSGS Search [RUS](README_ru.md)
 
 KeyHunt is a high-performance tool for searching Bitcoin private keys using the Baby-Step Giant-Step (BSGS) algorithm. This version includes significant optimizations for modern processors, improved memory management, and flexible search settings.
 
@@ -181,3 +181,4 @@ Correct values for n and maximum k for specific bits
 | 2 TB    | 50   | 131072     | 0x4000000000000 |
 
 -------------------------------------------------
+
