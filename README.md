@@ -22,6 +22,11 @@ KeyHunt is a high-performance tool for searching Bitcoin private keys using the 
 - **File Organization**: Bloom filters are now saved in a separate `filters/` folder with organized names.
 
 ## What's added:
+1.0.6
+What's added:
+Corrected by Random
+Corrected both mode
+
 1.0.4
 What's added:
 Corrected the -wif (1 | 0) output for WIF output
@@ -222,6 +227,7 @@ Correct values for n and maximum k for specific bits
 |  GB     |  GB     | 2 TB    | 50   | 131072     | 0x4000000000000 |                  |                 |                   |                |               |                 |
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 
 
