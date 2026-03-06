@@ -24,7 +24,9 @@ KeyHunt is a high-performance tool for searching Bitcoin private keys using the 
 ## What's added:
 1.0.6
 What's added:
+
 Corrected by Random
+
 Corrected both mode
 
 1.0.4
@@ -227,6 +229,7 @@ Correct values for n and maximum k for specific bits
 |  GB     |  GB     | 2 TB    | 50   | 131072     | 0x4000000000000 |                  |                 |                   |                |               |                 |
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 
 
