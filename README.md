@@ -208,7 +208,7 @@ Correct values for n and maximum k for specific bits
 | 4,7GB   | 5,2GB   | 7,6GB   | 44   | 512        | 0x100000000000  | 2 min 29 sec     | 4 min 33 sec    | 13 min 46 sec     | ~22 Pkeys/s    | ~21 Pkeys/s   | ~14 Pkeys/s     |
 | 9,5GB   | 10,4GB  | 15,2GB  | 44   | 1024       | 0x100000000000  | 6 min 44 sec     | 10 min 21 sec   | 27 min 40 sec     | ~41 Pkeys/s    | ~39 Pkeys/s   | ~27 Pkeys/s     |
 | 19GB    | ~20,8GB | 32 GB   | 44   | 2048       | 0x100000000000  |                  |                 |                   | ~76 Pkeys/s    |               |                 |
-|  GB     |  GB     | 64 GB   | 44   | 4096       | 0x100000000000  |                  |                 |                   |                |               |                 |
+| 37,1 GB |  GB     | 64 GB   | 44   | 4096       | 0x100000000000  |                  |                 |                   |                |               |                 |
 | 49,9GB  | 50,8 GB | 66 GB   | 44   | 5120       | 0x100000000000  |                  |                 |                   |                |               |                 |
 | GB      |  GB     |  GB     | 44   | 6144       | 0x100000000000  |                  |                 |                   |                |               |                 |
 |  GB     |  GB     | 128 GB  | 44   | 8192       | 0x100000000000  |                  |                 |                   |                |               |                 |
