@@ -213,7 +213,8 @@ make ARCH=znver4
 | 2,3GB   | 2,6GB   | 3,8GB   | 44   | 256        | 0x100000000000  | 1 min 1 sec      | 2 min 20 sec    | 5 min 46 sec      | ~12 Pkeys/s    | ~11 Pkeys/s   | ~7 Pkeys/s      |
 | 4,7GB   | 5,2GB   | 7,6GB   | 44   | 512        | 0x100000000000  | 2 min 29 sec     | 4 min 33 sec    | 13 min 46 sec     | ~22 Pkeys/s    | ~21 Pkeys/s   | ~14 Pkeys/s     |
 | 9,5GB   | 10,4GB  | 15,2GB  | 44   | 1024       | 0x100000000000  | 6 min 44 sec     | 10 min 21 sec   | 27 min 40 sec     | ~41 Pkeys/s    | ~39 Pkeys/s   | ~27 Pkeys/s     |
-| 19GB    | ~20,8GB | 32 GB   | 44   | 2048       | 0x100000000000  |                  |                 |                   | ~76 Pkeys/s    |               |                 |
+| 19GB    | ~20,8GB | 29,8 GB | 44   | 2048       | 0x100000000000  |                  |                 |                   | ~76 Pkeys/s    |               |                 |
+| 27,8 GB | ~30 GB  | 48 GB   | 44   | 3072       | 0x100000000000  | 37 min 15 sec    |                 |                   | ~109 Pkeys/s   |               |                 |
 | 37,1 GB |  GB     | 64 GB   | 44   | 4096       | 0x100000000000  |                  |                 |                   |                |               |                 |
 | 49,9GB  | 50,8 GB | 66 GB   | 44   | 5120       | 0x100000000000  |                  |                 |                   |                |               |                 |
 | GB      |  GB     |  GB     | 44   | 6144       | 0x100000000000  |                  |                 |                   |                |               |                 |
