@@ -22,8 +22,17 @@ KeyHunt is a high-performance tool for searching Bitcoin private keys using the 
 - **File Organization**: Bloom filters are now saved in a separate `filters/` folder with organized names.
 
 ## What's added:
-1.0.6
+1.0.7
 What's added:
+
+1. After analyzing the calls made to the FUSE filter, I discovered a critical oversight (a bottleneck) on the part of the developer within the `keyhunt.cpp` file:
+Inside the BSGS verification loop, the program *invariably* computed the computationally intensive cryptographic hash functions `sha256sse_33` and `ripemd160sse_32`.
+However, the catch is that when using the FUSE or XOR filter modes (`-x fuse`), the algorithm actually verifies the *original coordinates* (X Point); consequently, this massive block of hash computations was running entirely in vain! Such expensive hashing is required *only* for the BLOOM filter.
+I have modified `keyhunt.cpp` by wrapping the entire cryptographic block within a strict conditional statement: `if (FLAGFILTERTYPE == FILTER_BLOOM)`.
+
+2. When using the FUSE mode, the verification routine within the `binary_fuse16_contain` function—specifically for the negative half of the keys (the "Negative check")—was consistently checking the *exact same* zero addresses, thereby endlessly returning a `false` result. In other words, FUSE was effectively skipping *half* of the BSGS search space you had specified!
+
+1.0.6
 
 Corrected by Random
 
