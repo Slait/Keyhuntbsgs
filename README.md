@@ -22,8 +22,11 @@ KeyHunt is a high-performance tool for searching Bitcoin private keys using the 
 - **File Organization**: Bloom filters are now saved in a separate `filters/` folder with organized names.
 
 ## What's added:
-1.0.7
+1.0.8
 What's added:
+1. Bloom performance has been accelerated by ~5–10%. Important: Not compatible with older versions of Bloom.
+
+1.0.7
 
 1. After analyzing the calls made to the FUSE filter, I discovered a critical oversight (a bottleneck) on the part of the developer within the `keyhunt.cpp` file:
 Inside the BSGS verification loop, the program *invariably* computed the computationally intensive cryptographic hash functions `sha256sse_33` and `ripemd160sse_32`.
