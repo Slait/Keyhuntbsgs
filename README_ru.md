@@ -1,4 +1,4 @@
-# KeyHunt - BSGS Search [EN](README.md)
+# KeyHunt - BSGS Search [EN](README.md) | [FastECDLP](FastECDLP_RU.md)
 
 KeyHunt — это высокопроизводительный инструмент для поиска приватных ключей Bitcoin с использованием алгоритма Baby-Step Giant-Step (BSGS). Эта версия включает значительные оптимизации для современных процессоров, улучшенное управление памятью и гибкие настройки поиска.
 
